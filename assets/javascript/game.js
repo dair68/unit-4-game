@@ -17,13 +17,13 @@ $(document).ready(function() {
             $(this).attr("value", Math.floor(Math.random() * 12) + 1);
         })
 
-        console.log($(".ruby").attr("value"));
-        console.log($(".emerald").attr("value"));
-        console.log($(".tanzanite").attr("value"));
-        console.log($(".diamond").attr("value"));
+        // console.log($(".ruby").attr("value"));
+        // console.log($(".emerald").attr("value"));
+        // console.log($(".tanzanite").attr("value"));
+        // console.log($(".diamond").attr("value"));
     }
 
-    //click crystal event
+    //when clicking on crystal
     $(".crystal").on("click", function () {
         document.getElementById("click-sound").play();
         var points = $(this).attr("value");
